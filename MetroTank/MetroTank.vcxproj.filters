@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>ad05f27c-3022-4257-af3a-d20a1c0f7ec5</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>6c65422c-7df0-4bc5-89de-d8b1528adfc3</UniqueIdentifier>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Model">
+      <UniqueIdentifier>{0ffc15a9-e818-4437-9d32-375b3df608f6}</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{e4087e7a-e3ce-43a8-8d69-2f060a7c0e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Control">
+      <UniqueIdentifier>{c91f84bf-5d32-4929-90b4-8dbb6966693f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{36d5c467-9886-411c-95be-eec7ef532cc4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRenderer.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="MetroTank.cpp">
+      <Filter>View</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3DBase.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingBackground.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMath.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderer.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="MetroTank.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3DBase.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingBackground.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MetroTank_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\barrel.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\bullet.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\muzzleflash.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\tank.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\petrovakia_bg.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\petrovakia_bg2.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\petrovakia_ground.png">
+      <Filter>Images</Filter>
+    </Image>
+    <Image Include="images\petrovakia_sky.jpg">
+      <Filter>Images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

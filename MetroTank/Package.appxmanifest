@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="8c0d27bd-5275-471d-98f6-a9b28e4051f5" Publisher="CN=hu" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>MetroTank</DisplayName>
+    <PublisherDisplayName>hu</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="MetroTank.App">
+      <VisualElements DisplayName="MetroTank" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="MetroTank" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
